@@ -40,5 +40,6 @@ def main():
     print(stars)
     print("Thank you!\n")
 
-
-main()  ## we see it a lot
+if __name__ == "__main__":
+    print("I am in the main if block check for a file")
+    main()  ## we see it a lot
