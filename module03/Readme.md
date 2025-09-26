@@ -3,22 +3,19 @@
 ## Topics
 
 
-- [ ] Would you discuss in detail how we should be thinking about edge cases as they relate to the distance colors group activity earlier in the week?
-- [ ] How to check for a string vs an int to avoid edge cases where numbers are entered instead of characters. (Example: accepting input for employee_name in PyNative - (Exercise 4) Create a function with a default argument - [Practice Problem]
-- [ ] return formats / type hints 
-  - [ ] Advanced: mypy example
-- [ ] avoiding magic numbers for constants that seem super obvious - is it ever overkill or should we always do it? 
-- [ ] Common helper methods (ex: Bigger) and where to find them
-
-- [ ] If there's time could you demo the PyCodeStyle features a little further.
-- [ ] If there's time, please show an example in Python Tutor Visualize Code
+- [x] Would you discuss in detail how we should be thinking about edge cases as they relate to the distance colors group activity earlier in the week?
+- [x] How to check for a string vs an int to avoid edge cases where numbers are entered instead of characters. (Example: accepting input for employee_name in PyNative - (Exercise 4) Create a function with a default argument - [Practice Problem]
+- [x] return formats / type hints 
+  - [x] Advanced: mypy example
+- [x] avoiding magic numbers for constants that seem super obvious - is it ever overkill or should we always do it? 
+- [x] Common helper methods (ex: Bigger) and where to find them
+- [x] pure function definition -- IMPORTANT concept (but time)
 
 
-## Edge Cases
+- [x] If there's time could you demo the PyCodeStyle features a little further.
+- [x] If there's time, please show an example in Python Tutor Visualize Code
 
-### String vs int checking??
-
-## return formats / type hints
+- [x] Reminders on grading policies - (it is alright to not get 4/4! just go back)
 
 
 
@@ -80,7 +77,8 @@ may get an auto formatter to put in a line return. That will make the doctest as
 
 ```python
 >>> recommend_adjustment(2.0, 7.0)  # doctest: +NORMALIZE_WHITESPACE
-   'Significant contrast improvement needed - consider much darker or lighter colors'
+   'Significant contrast improvement needed - consider much darker 
+   or lighter colors'
 ```
 
 That will allow new lines in the string, but the doctest will assume all spaces/new lines are a single space.  Reminder: look at the raw markdown - the html rendering of the page could be adding what looks to be spaces. 
