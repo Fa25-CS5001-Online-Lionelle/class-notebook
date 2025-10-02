@@ -19,3 +19,10 @@ def add_numbers(a, b):
     """
     # Intentionally wrong implementation
     return a + b + 1  # This will fail the doctests
+
+
+
+# example 1 - simple loop??
+
+
+# example 2 - build a matrix in strings, two args
