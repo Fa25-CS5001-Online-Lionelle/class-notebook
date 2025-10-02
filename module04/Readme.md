@@ -7,10 +7,10 @@
 
 ## My additions
 
-- [ ] Can you demonstrate git/github again (matches video)
 - [ ] Explain the function mantra - and how that helps  
   (often people do it in the wrong order!)
 - [ ] Loop examples, debugging loops? any needed?
+- [ ] Can you demonstrate git/github again (matches video)
 
 ## doctest
 
