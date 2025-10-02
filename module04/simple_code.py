@@ -9,6 +9,8 @@ def add_numbers(a: int | float, b: int | float) -> int | float:
     12
     >>> add_numbers(-1, 1)
     0
+    >>> add_numbers(5, 7.0)
+    12.0
     
     Parameters:
         a (int): First number
@@ -17,9 +19,7 @@ def add_numbers(a: int | float, b: int | float) -> int | float:
     Returns:
         int: Sum of a and b
     """
-    # Intentionally wrong implementation
-    return a + b + 1  # This will fail the doctests
-
+    return a + b 
 
 
 # example 1 - simple loop??
