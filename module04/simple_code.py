@@ -1,4 +1,4 @@
-def add_numbers(a, b):
+def add_numbers(a: int | float, b: int | float) -> int | float:
     """
     Adds two numbers together.
     
