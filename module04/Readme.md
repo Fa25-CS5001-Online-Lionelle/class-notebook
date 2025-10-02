@@ -2,14 +2,17 @@
 
 
 
-- [ ] How can we write our code so that it runs examples as tests the way the homework does (like when we're doing practice problems)? Or is that a whole later area -- (more advanced topic but will be happy to cover it)
+- [x] How can we write our code so that it runs examples as tests the way the homework does (like when we're doing practice problems)? Or is that a whole later area -- (more advanced topic but will be happy to cover it)
 - [ ] "The most common mistake is not setting your user.name and user. email." from the Homework 4 Assignment details. Would you delve into this a little more?
+
 
 ## My additions
 
 - [ ] Explain the function mantra - and how that helps  
   (often people do it in the wrong order!)
 - [ ] Loop examples, debugging loops? any needed?
+  - [ ] Nested loop
+  - [ ] Count vowels in a string
 - [ ] Can you demonstrate git/github again (matches video)
 
 ## doctest
