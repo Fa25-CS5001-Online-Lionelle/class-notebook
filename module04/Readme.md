@@ -3,19 +3,47 @@
 
 
 - [x] How can we write our code so that it runs examples as tests the way the homework does (like when we're doing practice problems)? Or is that a whole later area -- (more advanced topic but will be happy to cover it)
-- [ ] "The most common mistake is not setting your user.name and user. email." from the Homework 4 Assignment details. Would you delve into this a little more?
+- [x] "The most common mistake is not setting your user.name and user. email." from the Homework 4 Assignment details. Would you delve into this a little more?
 
 
 ## My additions
 
-- [ ] Explain the function mantra - and how that helps  
+- [x] Explain the function mantra - and how that helps  
   (often people do it in the wrong order!)
-- [ ] Loop examples, debugging loops? any needed?
-  - [ ] Nested loop
-  - [ ] Count vowels in a string
-- [ ] Can you demonstrate git/github again (matches video)
+- [x] Loop examples, debugging loops? any needed?
+  - [x] Nested loop
+  - [x] Count vowels in a string
+- [x] Can you demonstrate git/github again (matches video)
+  - [x] Big take-away - double check rendering in github when submit assignment.
+
+## Nested Loop Debugging
+
+| row | col | rtn | number |
+| --- | --- | --- |  ----- |
+|  0  |  0  |  "" |  3 (no change) |
+|  0  |  1  | "0 "|  - |
+|  0  |  2  | "0 1 " | - |
+|  0  |  3 (false condition - inner loop) | "0 1 1" | - |  
+|  1  |  0  | "0 1 1\n" | - |
+....
+
+## mantra for writing functions
+
+* define
+  * name 
+  * parameters of function ("inputs/precondition")
+    * types - important
+  * returns (post-condition)
+    * types
+* document
+  * docstring 
+  * summary, start with one sentence, could be a paragraph.
+  * examples - thinking of pre/post conditions
+  * parameters (arguments)
+  * returns - if any
 
 ## doctest
+
 
 Doctest is actually a command line tool (like pycodestyle). So you can take any python file, but running it is slightly different due to how it is setup. Instead you need to do the following
 
