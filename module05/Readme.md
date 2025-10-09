@@ -39,3 +39,16 @@ print(string.capwords("Isn't this fun?"))
 
 
 Note: if the specification system built in - you don't have to import, but most of the standard library you still need to import!  
+
+
+## Homework 05
+
+```python
+# you can use this list for something like the following
+# if command in _FILTER_OPERATION_OPTIONS:  
+#    do something
+# else:
+#    assume it is a movie title
+__FILTER_OPERATION_OPTIONS = ['<', '>', '=', '<=', '>=', '!=']
+```
+
