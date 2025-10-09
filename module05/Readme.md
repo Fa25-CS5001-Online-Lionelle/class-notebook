@@ -4,18 +4,21 @@
 ## Posted Questions
 
 ### General 
-- [ ] Code walks - overview
-- [ ] What is a "substring" ?
+- [x] Code walks - overview
+  - [x] Difficult Sample
+  - [x] Talk through sample
+- [x] What is a "substring" ?
 
 
 - [ ] Would you discuss built-in Python modules.
-- [ ] Dealing with floating point errors (calc-brightness truncate), and rounding errors
+- [x] Dealing with floating point errors (calc-brightness truncate), and rounding errors
 
 
 ### Homework 05
-- [ ] Would you generally discuss check_filter() and how you want us to think about:
-  - [ ] "# if command in _FILTER_OPERATION_OPTIONS: "
-- [ ] There are already 8 docstring tests for check_filter(), do you want us to come up with more tests?
+- [x] Would you generally discuss check_filter() and how you want us to think about:
+  - [x] "# if command in _FILTER_OPERATION_OPTIONS: "
+- [x] There are already 8 docstring tests for check_filter(), do you want us to come up with more tests?
+- [x] print movies max stars
 
 
 
