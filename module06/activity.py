@@ -30,3 +30,8 @@ def build_complex_structure():
 
 if __name__ == "__main__":
     build_complex_structure()
+
+
+# ['Inigo Montoya', 'Buttercup2', 'Fezzik', 
+# (['Rugen', 'Humperdinck'], 
+# ('Westley', 'Buttercup', 'Inigo Montoya', 'Fezzik', 'Miracle Max'))]
